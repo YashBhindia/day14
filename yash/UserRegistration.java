@@ -18,7 +18,7 @@ public class UserRegistration {
 	public void registerUsers(String username,String userCountry) throws InvalidCountryException {
 	
 
-		if(userCountry=="India") {
+		if(userCountry.equals("India")) {
 		
 			System.out.println("User registration done successfully");
 		}
